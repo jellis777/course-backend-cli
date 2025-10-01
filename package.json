@@ -1,0 +1,24 @@
+{
+  "name": "jeffs-favs-cli",
+  "version": "1.1.1",
+  "description": "Easily launch your favorite websites",
+  "files": [
+    "src/main2.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/main2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bin": {
+    "favs": "src/main2.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.4.1",
+    "dotenv": "^17.2.2",
+    "open": "^10.2.0"
+  }
+}
